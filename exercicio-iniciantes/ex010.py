@@ -1,3 +1,4 @@
+"""
 # Solicite ao usuário que insira um número e, em seguida, use uma estrutura if else para determinar se o número é par ou ímpar.
 
 insira_numero = int(input('Insira um número: '))
@@ -30,3 +31,36 @@ if usuario == usuario_esperado and senha == senha_esperada:
     print('Usuário cadastrado')
 else:
     print('usuário não cadastrado')
+
+
+
+
+# Determina em qual quadrante o ponto se encontra
+if x > 0 and y > 0:
+    print('Primeiro Quadrante')
+elif x < 0 and y > 0:
+    print('Segundo Quadrante')
+elif x < 0 and y < 0:
+    print('Terceiro Quadrante')
+elif x > 0 and y < 0:
+    print('Quarto Quadrante')
+else:
+    print('o ponto está localizado no eixo ou origem.')
+
+"""
+# Solicita as coordenadas (x, y) do usuário
+x = float(input('Digite a primeira coordenada: '))
+y = float(input('Digite a segunda coordenda: '))
+
+match x and y:
+
+case 1 x > 0 and y > 0
+    print('Primeiro Quadrante')
+case 2 x < 0 and y > 0
+    print('Segundo Quadrante')
+case 3 x < 0 and y < 0
+    print('Terceiro Quadrante')
+case 4 x > 0 and y < 0
+    print('Quarto Quadrante')
+case _:
+    print('o ponto está localizado no eixo ou origem.')
