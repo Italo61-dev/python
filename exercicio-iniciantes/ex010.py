@@ -32,8 +32,11 @@ if usuario == usuario_esperado and senha == senha_esperada:
 else:
     print('usuário não cadastrado')
 
+"""
 
-
+# Solicita as coordenadas (x, y) do usuário
+x = float(input('Digite a primeira coordenada: '))
+y = float(input('Digite a segunda coordenda: '))
 
 # Determina em qual quadrante o ponto se encontra
 if x > 0 and y > 0:
@@ -45,22 +48,4 @@ elif x < 0 and y < 0:
 elif x > 0 and y < 0:
     print('Quarto Quadrante')
 else:
-    print('o ponto está localizado no eixo ou origem.')
-
-"""
-# Solicita as coordenadas (x, y) do usuário
-x = float(input('Digite a primeira coordenada: '))
-y = float(input('Digite a segunda coordenda: '))
-
-match x and y:
-
-case 1 x > 0 and y > 0
-    print('Primeiro Quadrante')
-case 2 x < 0 and y > 0
-    print('Segundo Quadrante')
-case 3 x < 0 and y < 0
-    print('Terceiro Quadrante')
-case 4 x > 0 and y < 0
-    print('Quarto Quadrante')
-case _:
     print('o ponto está localizado no eixo ou origem.')
