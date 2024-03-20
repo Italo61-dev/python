@@ -18,3 +18,15 @@ elif insira_idade <= 18:
 else:
     print('Alduto')
 
+# Solicite um nome de usuário e uma senha e use uma estrutura if else para verificar se o nome de usuário e a senha fornecidos correspondem aos valores esperados determinados por você.
+    
+usuario_esperado = 'Italo'
+senha_esperada = 'Italo123'
+
+usuario = input('Insira o nome do usuário: ')
+senha = input('insira a senha: ')
+
+if usuario == usuario_esperado and senha == senha_esperada:
+    print('Usuário cadastrado')
+else:
+    print('usuário não cadastrado')
